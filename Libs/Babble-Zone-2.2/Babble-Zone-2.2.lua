@@ -1,6 +1,6 @@
 --[[
 	Name: Babble-Zone-2.2
-	Revision: $Rev: 17779 $
+	Revision: $Rev: 17780 $
 	Author(s): ckknight (ckknight@gmail.com)
 	Website: http://ckknight.wowinterface.com/
 	Documentation: http://wiki.wowace.com/index.php/Babble-Zone-2.2
@@ -10,7 +10,7 @@
 ]]
 
 local MAJOR_VERSION = "Babble-Zone-2.2"
-local MINOR_VERSION = tonumber(string.sub("$Revision: 17779 $", 12, -3))
+local MINOR_VERSION = tonumber(string.sub("$Revision: 17780 $", 12, -3))
 
 if not AceLibrary then error(MAJOR_VERSION .. " requires AceLibrary") end
 
@@ -173,6 +173,33 @@ BabbleZone:RegisterTranslations("enUS", function()
 		["Karazhan"] = true,
 		["Caverns of Time"] = true,
 		["Zul'Aman"] = true,
+
+		-- Turtle WoW
+		["Amani'Alor"] = true,
+		["Tel'Abim"] = true,
+		["Alah'Thalas"] = true,
+		["Thalassian Highlands"] = true,
+		["Lapidis Isle"] = true,
+		["Gillijim's Isle"] = true,
+		["Scarlet Enclave"] = true,
+		["The Black Morass"] = true,
+		["Crescent Grove"] = true,
+		["Emerald Sanctum"] = true,
+		["Gilneas City"] = true,
+		["Gilneas"] = true,
+		["Hateforge Quarry"] = true,
+		["Icepoint Rock"] = true,
+		["Karazhan Crypt"] = true,
+		["Lower Karazhan Halls"] = true,
+		["Moomoo Grove"] = true,
+		["Stormwind Vault"] = true,
+		["Sunnyglade Valley"] = true,
+		["Winter Veil Vale"] = true,
+		["Blackstone Island"] = true,
+		["Scarlet Monastery Graveyard"] = true,
+		["Scarlet Monastery Library"] = true,
+		["Scarlet Monastery Armory"] = true,
+		["Scarlet Monastery Cathedral"] = true,
 	}
 end)
 
